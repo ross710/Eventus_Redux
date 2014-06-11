@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9199DDA41947D2B2004AD446 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9199DDA31947D2B2004AD446 /* SettingsViewController.m */; };
 		91C1BA8F19476F7C00F93F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BA8E19476F7C00F93F25 /* Foundation.framework */; };
 		91C1BA9119476F7C00F93F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BA9019476F7C00F93F25 /* CoreGraphics.framework */; };
 		91C1BA9319476F7C00F93F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BA9219476F7C00F93F25 /* UIKit.framework */; };
@@ -15,14 +16,29 @@
 		91C1BA9F19476F7C00F93F25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BA9E19476F7C00F93F25 /* AppDelegate.m */; };
 		91C1BAA219476F7C00F93F25 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAA019476F7C00F93F25 /* Main_iPhone.storyboard */; };
 		91C1BAA519476F7C00F93F25 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAA319476F7C00F93F25 /* Main_iPad.storyboard */; };
-		91C1BAA819476F7C00F93F25 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BAA719476F7C00F93F25 /* FirstViewController.m */; };
-		91C1BAAB19476F7C00F93F25 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BAAA19476F7C00F93F25 /* SecondViewController.m */; };
 		91C1BAAD19476F7C00F93F25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAAC19476F7C00F93F25 /* Images.xcassets */; };
 		91C1BAB419476F7C00F93F25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BAB319476F7C00F93F25 /* XCTest.framework */; };
 		91C1BAB519476F7C00F93F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BA8E19476F7C00F93F25 /* Foundation.framework */; };
 		91C1BAB619476F7C00F93F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BA9219476F7C00F93F25 /* UIKit.framework */; };
 		91C1BABE19476F7C00F93F25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BABC19476F7C00F93F25 /* InfoPlist.strings */; };
 		91C1BAC019476F7C00F93F25 /* Eventus_ReduxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BABF19476F7C00F93F25 /* Eventus_ReduxTests.m */; };
+		91C1BACF194774E900F93F25 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAC9194774E900F93F25 /* list.png */; };
+		91C1BAD0194774E900F93F25 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BACA194774E900F93F25 /* list@2x.png */; };
+		91C1BAD1194774E900F93F25 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BACB194774E900F93F25 /* map.png */; };
+		91C1BAD2194774E900F93F25 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BACC194774E900F93F25 /* map@2x.png */; };
+		91C1BAD3194774E900F93F25 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BACD194774E900F93F25 /* settings.png */; };
+		91C1BAD4194774E900F93F25 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BACE194774E900F93F25 /* settings@2x.png */; };
+		91C1BAD8194776D000F93F25 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BAD7194776D000F93F25 /* TabBarController.m */; };
+		91C1BADB194778B500F93F25 /* NowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BADA194778B500F93F25 /* NowViewController.m */; };
+		91C1BADF19477D4D00F93F25 /* Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BADE19477D4D00F93F25 /* Shared.m */; };
+		91C1BAE3194788E500F93F25 /* NowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BAE1194788E500F93F25 /* NowTableViewCell.m */; };
+		91C1BAE4194788E500F93F25 /* NowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAE2194788E500F93F25 /* NowTableViewCell.xib */; };
+		91C1BAE719478F3C00F93F25 /* social@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAE519478F3C00F93F25 /* social@2x.png */; };
+		91C1BAE819478F3C00F93F25 /* social.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C1BAE619478F3C00F93F25 /* social.png */; };
+		91C1BAEB19478F9000F93F25 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1BAEA19478F9000F93F25 /* MapViewController.m */; };
+		91C1BAEE19478FD000F93F25 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C1BAED19478FD000F93F25 /* MapKit.framework */; };
+		91D757471947E0E30023A8B8 /* now.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D757451947E0E30023A8B8 /* now.png */; };
+		91D757481947E0E30023A8B8 /* now@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D757461947E0E30023A8B8 /* now@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,28 +52,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		91C1BA8B19476F7C00F93F25 /* Eventus_Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventus_Redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9199DDA21947D2B2004AD446 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9199DDA31947D2B2004AD446 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		91C1BA8B19476F7C00F93F25 /* Eventus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C1BA8E19476F7C00F93F25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91C1BA9019476F7C00F93F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		91C1BA9219476F7C00F93F25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		91C1BA9619476F7C00F93F25 /* Eventus_Redux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eventus_Redux-Info.plist"; sourceTree = "<group>"; };
+		91C1BA9619476F7C00F93F25 /* Eventus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eventus-Info.plist"; sourceTree = "<group>"; };
 		91C1BA9819476F7C00F93F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91C1BA9A19476F7C00F93F25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91C1BA9C19476F7C00F93F25 /* Eventus_Redux-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eventus_Redux-Prefix.pch"; sourceTree = "<group>"; };
+		91C1BA9C19476F7C00F93F25 /* Eventus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eventus-Prefix.pch"; sourceTree = "<group>"; };
 		91C1BA9D19476F7C00F93F25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91C1BA9E19476F7C00F93F25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		91C1BAA119476F7C00F93F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		91C1BAA419476F7C00F93F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		91C1BAA619476F7C00F93F25 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		91C1BAA719476F7C00F93F25 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		91C1BAA919476F7C00F93F25 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		91C1BAAA19476F7C00F93F25 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		91C1BAAC19476F7C00F93F25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		91C1BAB219476F7C00F93F25 /* Eventus_ReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eventus_ReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C1BAB219476F7C00F93F25 /* EventusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C1BAB319476F7C00F93F25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		91C1BABB19476F7C00F93F25 /* Eventus_ReduxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eventus_ReduxTests-Info.plist"; sourceTree = "<group>"; };
+		91C1BABB19476F7C00F93F25 /* EventusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventusTests-Info.plist"; sourceTree = "<group>"; };
 		91C1BABD19476F7C00F93F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91C1BABF19476F7C00F93F25 /* Eventus_ReduxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eventus_ReduxTests.m; sourceTree = "<group>"; };
+		91C1BAC9194774E900F93F25 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		91C1BACA194774E900F93F25 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		91C1BACB194774E900F93F25 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		91C1BACC194774E900F93F25 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		91C1BACD194774E900F93F25 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		91C1BACE194774E900F93F25 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		91C1BAD6194776D000F93F25 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		91C1BAD7194776D000F93F25 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		91C1BAD9194778B500F93F25 /* NowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowViewController.h; sourceTree = "<group>"; };
+		91C1BADA194778B500F93F25 /* NowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowViewController.m; sourceTree = "<group>"; };
+		91C1BADD19477D4D00F93F25 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		91C1BADE19477D4D00F93F25 /* Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shared.m; sourceTree = "<group>"; };
+		91C1BAE0194788E500F93F25 /* NowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowTableViewCell.h; sourceTree = "<group>"; };
+		91C1BAE1194788E500F93F25 /* NowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowTableViewCell.m; sourceTree = "<group>"; };
+		91C1BAE2194788E500F93F25 /* NowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NowTableViewCell.xib; sourceTree = "<group>"; };
+		91C1BAE519478F3C00F93F25 /* social@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social@2x.png"; sourceTree = "<group>"; };
+		91C1BAE619478F3C00F93F25 /* social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = social.png; sourceTree = "<group>"; };
+		91C1BAE919478F9000F93F25 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		91C1BAEA19478F9000F93F25 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		91C1BAED19478FD000F93F25 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		91D757451947E0E30023A8B8 /* now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = now.png; sourceTree = "<group>"; };
+		91D757461947E0E30023A8B8 /* now@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "now@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C1BAEE19478FD000F93F25 /* MapKit.framework in Frameworks */,
 				91C1BA9119476F7C00F93F25 /* CoreGraphics.framework in Frameworks */,
 				91C1BA9319476F7C00F93F25 /* UIKit.framework in Frameworks */,
 				91C1BA8F19476F7C00F93F25 /* Foundation.framework in Frameworks */,
@@ -84,6 +121,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9199DDA51947D2B6004AD446 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9199DDA21947D2B2004AD446 /* SettingsViewController.h */,
+				9199DDA31947D2B2004AD446 /* SettingsViewController.m */,
+			);
+			name = Settings;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		91C1BA8219476F7C00F93F25 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +144,8 @@
 		91C1BA8C19476F7C00F93F25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91C1BA8B19476F7C00F93F25 /* Eventus_Redux.app */,
-				91C1BAB219476F7C00F93F25 /* Eventus_ReduxTests.xctest */,
+				91C1BA8B19476F7C00F93F25 /* Eventus.app */,
+				91C1BAB219476F7C00F93F25 /* EventusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +153,7 @@
 		91C1BA8D19476F7C00F93F25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91C1BAED19478FD000F93F25 /* MapKit.framework */,
 				91C1BA8E19476F7C00F93F25 /* Foundation.framework */,
 				91C1BA9019476F7C00F93F25 /* CoreGraphics.framework */,
 				91C1BA9219476F7C00F93F25 /* UIKit.framework */,
@@ -119,13 +167,17 @@
 			children = (
 				91C1BA9D19476F7C00F93F25 /* AppDelegate.h */,
 				91C1BA9E19476F7C00F93F25 /* AppDelegate.m */,
+				91C1BAD5194774EE00F93F25 /* Icons */,
 				91C1BAA019476F7C00F93F25 /* Main_iPhone.storyboard */,
-				91C1BAA319476F7C00F93F25 /* Main_iPad.storyboard */,
-				91C1BAA619476F7C00F93F25 /* FirstViewController.h */,
-				91C1BAA719476F7C00F93F25 /* FirstViewController.m */,
-				91C1BAA919476F7C00F93F25 /* SecondViewController.h */,
-				91C1BAAA19476F7C00F93F25 /* SecondViewController.m */,
+				91C1BADD19477D4D00F93F25 /* Shared.h */,
+				91C1BADE19477D4D00F93F25 /* Shared.m */,
+				91C1BAD6194776D000F93F25 /* TabBarController.h */,
+				91C1BAD7194776D000F93F25 /* TabBarController.m */,
+				9199DDA51947D2B6004AD446 /* Settings */,
+				91C1BAEC19478F9500F93F25 /* Map */,
+				91C1BADC194778B900F93F25 /* Now */,
 				91C1BAAC19476F7C00F93F25 /* Images.xcassets */,
+				91C1BAA319476F7C00F93F25 /* Main_iPad.storyboard */,
 				91C1BA9519476F7C00F93F25 /* Supporting Files */,
 			);
 			path = Eventus_Redux;
@@ -134,10 +186,10 @@
 		91C1BA9519476F7C00F93F25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				91C1BA9619476F7C00F93F25 /* Eventus_Redux-Info.plist */,
+				91C1BA9619476F7C00F93F25 /* Eventus-Info.plist */,
 				91C1BA9719476F7C00F93F25 /* InfoPlist.strings */,
 				91C1BA9A19476F7C00F93F25 /* main.m */,
-				91C1BA9C19476F7C00F93F25 /* Eventus_Redux-Prefix.pch */,
+				91C1BA9C19476F7C00F93F25 /* Eventus-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,18 +206,56 @@
 		91C1BABA19476F7C00F93F25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				91C1BABB19476F7C00F93F25 /* Eventus_ReduxTests-Info.plist */,
+				91C1BABB19476F7C00F93F25 /* EventusTests-Info.plist */,
 				91C1BABC19476F7C00F93F25 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		91C1BAD5194774EE00F93F25 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				91D757451947E0E30023A8B8 /* now.png */,
+				91D757461947E0E30023A8B8 /* now@2x.png */,
+				91C1BAC9194774E900F93F25 /* list.png */,
+				91C1BACA194774E900F93F25 /* list@2x.png */,
+				91C1BACB194774E900F93F25 /* map.png */,
+				91C1BACC194774E900F93F25 /* map@2x.png */,
+				91C1BACD194774E900F93F25 /* settings.png */,
+				91C1BACE194774E900F93F25 /* settings@2x.png */,
+				91C1BAE519478F3C00F93F25 /* social@2x.png */,
+				91C1BAE619478F3C00F93F25 /* social.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		91C1BADC194778B900F93F25 /* Now */ = {
+			isa = PBXGroup;
+			children = (
+				91C1BAD9194778B500F93F25 /* NowViewController.h */,
+				91C1BADA194778B500F93F25 /* NowViewController.m */,
+				91C1BAE0194788E500F93F25 /* NowTableViewCell.h */,
+				91C1BAE1194788E500F93F25 /* NowTableViewCell.m */,
+				91C1BAE2194788E500F93F25 /* NowTableViewCell.xib */,
+			);
+			name = Now;
+			sourceTree = "<group>";
+		};
+		91C1BAEC19478F9500F93F25 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				91C1BAE919478F9000F93F25 /* MapViewController.h */,
+				91C1BAEA19478F9000F93F25 /* MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91C1BA8A19476F7C00F93F25 /* Eventus_Redux */ = {
+		91C1BA8A19476F7C00F93F25 /* Eventus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91C1BAC319476F7C00F93F25 /* Build configuration list for PBXNativeTarget "Eventus_Redux" */;
+			buildConfigurationList = 91C1BAC319476F7C00F93F25 /* Build configuration list for PBXNativeTarget "Eventus" */;
 			buildPhases = (
 				91C1BA8719476F7C00F93F25 /* Sources */,
 				91C1BA8819476F7C00F93F25 /* Frameworks */,
@@ -175,14 +265,14 @@
 			);
 			dependencies = (
 			);
-			name = Eventus_Redux;
+			name = Eventus;
 			productName = Eventus_Redux;
-			productReference = 91C1BA8B19476F7C00F93F25 /* Eventus_Redux.app */;
+			productReference = 91C1BA8B19476F7C00F93F25 /* Eventus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91C1BAB119476F7C00F93F25 /* Eventus_ReduxTests */ = {
+		91C1BAB119476F7C00F93F25 /* EventusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91C1BAC619476F7C00F93F25 /* Build configuration list for PBXNativeTarget "Eventus_ReduxTests" */;
+			buildConfigurationList = 91C1BAC619476F7C00F93F25 /* Build configuration list for PBXNativeTarget "EventusTests" */;
 			buildPhases = (
 				91C1BAAE19476F7C00F93F25 /* Sources */,
 				91C1BAAF19476F7C00F93F25 /* Frameworks */,
@@ -193,9 +283,9 @@
 			dependencies = (
 				91C1BAB819476F7C00F93F25 /* PBXTargetDependency */,
 			);
-			name = Eventus_ReduxTests;
+			name = EventusTests;
 			productName = Eventus_ReduxTests;
-			productReference = 91C1BAB219476F7C00F93F25 /* Eventus_ReduxTests.xctest */;
+			productReference = 91C1BAB219476F7C00F93F25 /* EventusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91C1BA8619476F7C00F93F25 /* Build configuration list for PBXProject "Eventus_Redux" */;
+			buildConfigurationList = 91C1BA8619476F7C00F93F25 /* Build configuration list for PBXProject "Eventus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,8 +315,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91C1BA8A19476F7C00F93F25 /* Eventus_Redux */,
-				91C1BAB119476F7C00F93F25 /* Eventus_ReduxTests */,
+				91C1BA8A19476F7C00F93F25 /* Eventus */,
+				91C1BAB119476F7C00F93F25 /* EventusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,9 +326,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D757471947E0E30023A8B8 /* now.png in Resources */,
+				91D757481947E0E30023A8B8 /* now@2x.png in Resources */,
 				91C1BAA519476F7C00F93F25 /* Main_iPad.storyboard in Resources */,
+				91C1BAE719478F3C00F93F25 /* social@2x.png in Resources */,
+				91C1BACF194774E900F93F25 /* list.png in Resources */,
+				91C1BAE819478F3C00F93F25 /* social.png in Resources */,
 				91C1BAAD19476F7C00F93F25 /* Images.xcassets in Resources */,
 				91C1BAA219476F7C00F93F25 /* Main_iPhone.storyboard in Resources */,
+				91C1BAD1194774E900F93F25 /* map.png in Resources */,
+				91C1BAE4194788E500F93F25 /* NowTableViewCell.xib in Resources */,
+				91C1BAD4194774E900F93F25 /* settings@2x.png in Resources */,
+				91C1BAD2194774E900F93F25 /* map@2x.png in Resources */,
+				91C1BAD3194774E900F93F25 /* settings.png in Resources */,
+				91C1BAD0194774E900F93F25 /* list@2x.png in Resources */,
 				91C1BA9919476F7C00F93F25 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,10 +359,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91C1BAAB19476F7C00F93F25 /* SecondViewController.m in Sources */,
+				91C1BAE3194788E500F93F25 /* NowTableViewCell.m in Sources */,
+				91C1BAD8194776D000F93F25 /* TabBarController.m in Sources */,
+				91C1BADB194778B500F93F25 /* NowViewController.m in Sources */,
+				9199DDA41947D2B2004AD446 /* SettingsViewController.m in Sources */,
+				91C1BADF19477D4D00F93F25 /* Shared.m in Sources */,
 				91C1BA9F19476F7C00F93F25 /* AppDelegate.m in Sources */,
-				91C1BAA819476F7C00F93F25 /* FirstViewController.m in Sources */,
 				91C1BA9B19476F7C00F93F25 /* main.m in Sources */,
+				91C1BAEB19478F9000F93F25 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		91C1BAB819476F7C00F93F25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91C1BA8A19476F7C00F93F25 /* Eventus_Redux */;
+			target = 91C1BA8A19476F7C00F93F25 /* Eventus */;
 			targetProxy = 91C1BAB719476F7C00F93F25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,9 +502,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Eventus_Redux/Eventus_Redux-Prefix.pch";
-				INFOPLIST_FILE = "Eventus_Redux/Eventus_Redux-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Eventus_Redux/Eventus-Prefix.pch";
+				INFOPLIST_FILE = "Eventus_Redux/Eventus-Info.plist";
+				PRODUCT_NAME = Eventus;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,9 +515,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Eventus_Redux/Eventus_Redux-Prefix.pch";
-				INFOPLIST_FILE = "Eventus_Redux/Eventus_Redux-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Eventus_Redux/Eventus-Prefix.pch";
+				INFOPLIST_FILE = "Eventus_Redux/Eventus-Info.plist";
+				PRODUCT_NAME = Eventus;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,8 +537,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Eventus_ReduxTests/Eventus_ReduxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Eventus_ReduxTests/EventusTests-Info.plist";
+				PRODUCT_NAME = EventusTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -450,8 +555,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eventus_Redux/Eventus_Redux-Prefix.pch";
-				INFOPLIST_FILE = "Eventus_ReduxTests/Eventus_ReduxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Eventus_ReduxTests/EventusTests-Info.plist";
+				PRODUCT_NAME = EventusTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91C1BA8619476F7C00F93F25 /* Build configuration list for PBXProject "Eventus_Redux" */ = {
+		91C1BA8619476F7C00F93F25 /* Build configuration list for PBXProject "Eventus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91C1BAC119476F7C00F93F25 /* Debug */,
@@ -469,21 +574,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91C1BAC319476F7C00F93F25 /* Build configuration list for PBXNativeTarget "Eventus_Redux" */ = {
+		91C1BAC319476F7C00F93F25 /* Build configuration list for PBXNativeTarget "Eventus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91C1BAC419476F7C00F93F25 /* Debug */,
 				91C1BAC519476F7C00F93F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		91C1BAC619476F7C00F93F25 /* Build configuration list for PBXNativeTarget "Eventus_ReduxTests" */ = {
+		91C1BAC619476F7C00F93F25 /* Build configuration list for PBXNativeTarget "EventusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91C1BAC719476F7C00F93F25 /* Debug */,
 				91C1BAC819476F7C00F93F25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

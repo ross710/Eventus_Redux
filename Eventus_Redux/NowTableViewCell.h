@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  NowTableViewCell.h
 //  Eventus_Redux
 //
 //  Created by Ross Tang Him on 6/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface NowTableViewCell : UITableViewCell
 
 @end

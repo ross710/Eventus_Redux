@@ -7,12 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "Shared.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //set color of navbar globally
+    [[UINavigationBar appearance] setBarTintColor:[Shared backgroundColor]];
+    UIColor *textColor = [Shared textColor];
+    [[UINavigationBar appearance] setTintColor:textColor];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:textColor, NSForegroundColorAttributeName, nil]];
+    
+//    [[UINavigationBar appearance] setTranslucent:NO];
+    
+    
     return YES;
 }
 							
